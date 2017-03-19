@@ -20,7 +20,8 @@ public class E62 {
 	}
 	
 	public static void removeLast(ArrayList<String> list){
-		list.remove(3);	//"Michael"
+		list.remove(list.size() - 1); 
+		//list.remove(3);	//"Michael"
 		//brothers.remove(Integer.valueOf(1)); //not work
 		
 	}
